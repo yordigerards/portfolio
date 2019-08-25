@@ -1,0 +1,196 @@
+body{
+  background-color: white;
+  font-family: "Courier New" ;
+  color: black;
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+
+}
+.bovenStil{
+      position: fixed;
+      background-color: white;
+      width: 100vw;
+      top: 0;
+      left: 0;
+      transition: 1s ease;
+}
+
+.titelHeader{
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-bottom: 5rem;
+  animation: naam-zien 6s;
+}
+.inleiding {
+    border-bottom: 1px solid red;
+    margin-top: 4rem;
+}
+.top ul li a {
+  margin: 0 15px 0;
+  display: inline-block;
+  color: black;
+  font-size: 1.5rem;
+  animation: kleurtjes 5s ;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.top ul {
+  margin-top:-4rem;
+  text-align: center;
+}
+
+.top li {
+  display: inline;
+
+}
+
+.foto{
+  width: auto;
+  height: 35rem;
+  background-image:url(ruimte.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+}
+
+.titelBody{
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+
+}
+ .aboutMe{
+   margin-bottom: 10rem;
+ }
+
+.ikke{
+  width: 25%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 30rem 20rem auto;
+
+}
+
+.ikke:hover{
+    transform:scale(1.3);
+}
+.vaardigheden ol{
+  list-style-type: decimal;
+  margin-top: -36rem;
+  font-size: 1.5rem;
+  margin-left: 30rem;
+
+}
+
+.vaardigheden h2{
+  font-size: 2.5rem;
+  margin-left: 30rem;
+  margin-bottom: -3rem;
+
+}
+
+
+
+.aboutMe,.projecten{
+  font-size: 1.5rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: -2rem;
+  text-align: center;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.projecten{
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+#projects{
+  margin-top: 15rem;
+  border-top: 1px solid red;
+
+}
+
+.eersteFoto{
+  width: 20%;
+}
+
+.portFotos2{
+  display: flex;
+  justify-content: space-between;
+ margin-top: 6rem;
+  border-radius: 2rem;
+}
+.foto1,.foto2,.foto3{
+  transition: transform 1.5s ease;
+}
+
+.foto1:hover,.foto2:hover,.foto3:hover{
+transform: scale(1.3);
+
+}
+.portTekst{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+}
+
+.portTekst p {
+  width: 20%;
+  font-size: 1.3rem;
+}
+
+
+footer{
+  border-top: 1px solid red;
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.einde{
+  margin-top: 2rem;
+}
+
+.mezelf{
+  background: linear-gradient(to right,red,purple);
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes naam-zien
+{
+  0%{opacity:0;
+  display:block;;}
+  100%{opacity:1;
+  display: none;}
+}
+
+@-webkit-keyframes kleurtjes {
+    0% { color: black; }
+    10% { color: red; }
+    20% { color: black; }
+    30% { color: red; }
+    40% { color: black; }
+    50% { color: red; }
+    60% { color: black; }
+    70% { color: red; }
+    80% { color: black; }
+    90% { color: red; }
+    100% { color: black; }
+}
